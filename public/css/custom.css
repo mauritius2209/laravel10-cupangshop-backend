@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ *
+ */
+
+
+/*# sourceMappingURL=custom.css.map */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+.bg-primary-inset {
+    background-color: rgba(255, 24, 133, 0.85);
+    box-shadow: -7px 1px 26.30px rgba(0, 0, 0, 0.15) inset;
+}
+
+.bg-customblue-inset {
+    background-color: rgba(0, 92, 201, 0.85);
+    box-shadow: -7px 1px 26.30px rgba(0, 0, 0, 0.15) inset;
+}
+
+.bg-customyellow-inset {
+    background-color: rgba(255, 164, 38, 0.85);
+    box-shadow: -7px 1px 26.30px rgba(0, 0, 0, 0.15) inset;
+}
+
+.bg-customgreen-inset {
+    background-color: rgba(71, 195, 99, 0.85);
+    box-shadow: -7px 1px 26.30px rgba(0, 0, 0, 0.15) inset;
+}
+
+.navbar-bg {
+    background-image: url(../img/navbar-bgimage2.svg);
+    background-size: cover;
+}
+
+.main-sidebar .sidebar-brand a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #28183D;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-sidebar .sidebar-brand a span {
+    font-weight: 600;
+    color: #FF1885;
+}
+
+.section .section-header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    color: #28183D;
+}
+
+.main-content .header-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .header-title h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 20px;
+    display: inline-block;
+    align-items: center;
+    color: #28183D;
+}
+
+.main-content .header-title h4 span {
+    color: #FF1885;
+}
