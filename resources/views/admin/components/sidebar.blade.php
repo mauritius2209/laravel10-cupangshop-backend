@@ -18,9 +18,9 @@
                 <a href="#"
                     class="nav-link has-dropdown"><i class="fas fa-house-lock"></i><span>Dashboard</span></a>
                 <ul class="dropdown-menu">
-                    <li class='{{ Request::is('admin/dashboard') ? 'active' : '' }}'>
+                    <li class='{{ Request::is('dashboard') ? 'active' : '' }}'>
                         <a class="nav-link"
-                            href="{{ url('admin/dashboard') }}">General</a>
+                            href="{{ url('dashboard') }}">General</a>
                     </li>
                 </ul>
             </li>

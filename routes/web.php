@@ -13,15 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', 'admin/dashboard');
-
 //Master
 //Master Auth
-Route::get('/admin/login', function () {
+Route::get('/', function () {
     return view('admin.pages.auth.login');
 });
 
-// Control
-Route::get('/admin/dashboard', function () {
-    return view('admin.pages.dashboard', ['type_menu' => 'dashboard']);
+Route::middleware(['auth'])->group(function(){
+    Route::get ('dashboard', function(){
+        return view('admin.pages.dashboard', ['type_menu' => 'dashboard']);
+    })->name('dashboard');
 });
+// // Control
+// Route::get('/admin/dashboard', function () {
+//     return view('admin.pages.dashboard', ['type_menu' => 'dashboard']);
+// });
